@@ -2,6 +2,8 @@ package com.sfshin5.javadesignpatterns.No_4_1.idcard;
 
 import com.sfshin5.javadesignpatterns.No_4_1.framework.Product;
 
+// 具体的製品の役
+// Factory Methodパターンの「ConcreteProduct」に相当
 public class IDCard extends Product {
     private String owner;
 
