@@ -1,0 +1,13 @@
+package com.sfshin5.javadesignpatterns.no03_template_method.sample;
+
+public class Main {
+    public static void main(String[] args) {
+        AbstractDisplay d1 = new CharDisplay('H');
+        AbstractDisplay d2 = new StringDisplay("Hello, World.");
+        AbstractDisplay d3 = new StringDisplay("こんにちは。");
+
+        d1.display();
+        d2.display();
+        d3.display();
+    }
+}
