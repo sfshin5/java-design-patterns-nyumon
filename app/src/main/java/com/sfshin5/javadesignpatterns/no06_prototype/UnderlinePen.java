@@ -1,5 +1,7 @@
 package com.sfshin5.javadesignpatterns.no06_prototype;
 
+import com.sfshin5.javadesignpatterns.no06_prototype.framework.Product;
+
 public class UnderlinePen implements Product {
     private char ulchar;
     

@@ -1,4 +1,4 @@
-package com.sfshin5.javadesignpatterns.no06_prototype;
+package com.sfshin5.javadesignpatterns.no06_prototype.framework;
 
 public interface Product extends Cloneable {
     public abstract void use(String s);

@@ -1,4 +1,4 @@
-package com.sfshin5.javadesignpatterns.no06_prototype;
+package com.sfshin5.javadesignpatterns.no06_prototype.framework;
 
 import java.util.HashMap;
 
