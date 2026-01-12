@@ -1,6 +1,9 @@
 package com.sfshin5.javadesignpatterns.no07_Builder;
 
 // Directorの役
+// DirectorクラスはBuilderクラスのメソッドを使う
+// 自分が実際に呼び出している具体的なクラスは知らない（メインクラスは知っているがサブクラスは知らない）
+// 知らないからこそ入れ替えが可能になる
 public class Director {
     private Builder builder;
     

@@ -1,6 +1,8 @@
 package com.sfshin5.javadesignpatterns.no07_Builder;
 
 // Mainはクライアントの役
+// MainクラスはBuilderクラスを知らない
+// Directorクラスのメソッドを呼び出すだけ
 public class Main {
     public static void main(String[] args) {
         
