@@ -2,6 +2,7 @@ package com.sfshin5.javadesignpatterns.no06_prototype.framework;
 
 import java.util.HashMap;
 
+// Prototypeパターンの「プロトタイプマネージャ」にあたるクラス
 public class Manager {
     private HashMap showcase = new HashMap();
     public void register(String name, Product proto) {

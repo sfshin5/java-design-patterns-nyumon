@@ -2,6 +2,7 @@ package com.sfshin5.javadesignpatterns.no06_prototype;
 
 import com.sfshin5.javadesignpatterns.no06_prototype.framework.Product;
 
+// Prototypeパターンの「具体的プロトタイプ」にあたるクラス
 public class MessageBox implements Product {
     private char decochar;
     
@@ -22,7 +23,8 @@ public class MessageBox implements Product {
         }
         System.out.println();
     }
-
+    
+    @Override
     public Product createClone() {
         Product p = null;
         try {

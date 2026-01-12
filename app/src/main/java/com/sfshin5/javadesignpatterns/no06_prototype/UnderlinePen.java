@@ -2,6 +2,7 @@ package com.sfshin5.javadesignpatterns.no06_prototype;
 
 import com.sfshin5.javadesignpatterns.no06_prototype.framework.Product;
 
+// Prototypeパターンの「具体的なプロトタイプ」にあたるクラス
 public class UnderlinePen implements Product {
     private char ulchar;
     
@@ -19,6 +20,7 @@ public class UnderlinePen implements Product {
         System.out.println();
     }
 
+    @Override
     public Product createClone() {
         Product p = null;
         try {
