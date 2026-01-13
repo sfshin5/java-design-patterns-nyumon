@@ -1,4 +1,4 @@
-package com.sfshin5.javadesignpatterns.no07_Builder;
+package com.sfshin5.javadesignpatterns.no07_Builder.practice_1;
 
 // Mainはクライアントの役
 // MainクラスはBuilderクラスを知らない

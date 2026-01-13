@@ -1,4 +1,4 @@
-package com.sfshin5.javadesignpatterns.no07_Builder;
+package com.sfshin5.javadesignpatterns.no07_Builder.sample;
 
 import java.io.*;
 
