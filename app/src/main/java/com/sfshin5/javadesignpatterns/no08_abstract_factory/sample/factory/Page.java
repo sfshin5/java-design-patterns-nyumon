@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.io.Writer;
 import java.util.ArrayList;
 
-import com.sfshin5.javadesignpatterns.no08_abstract_factory.Item;
-
 public abstract class Page {
     protected String title;
     protected String author;
