@@ -3,14 +3,18 @@ package com.sfshin5.javadesignpatterns.no08_abstract_factory.sample.factory;
 public abstract class Factory {
 
     public static Factory getFactory(String classname) {
-    Factory factory = null;
-    try {
-        factory = (Factory)Class.forName(classname).newInstance();
-    } catch (ClassNotFoundException e) {
-        e.printStackTrace();
-    } catch (Exception e) {
-        e.printStackTrace();
+        Factory factory = null;
+        try {
+            factory = (Factory) Class.forName(classname).newInstance();
+        } catch (ClassNotFoundException e) {
+            System.err.println("クラス " + classname + " が見つかりません。");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return factory;
     }
-    return factory;
-}
+
+    public abstract Link createLink(String caption, String url);
+    public abstract Tray createTray(String caption);
+    public abstract Page createPage(String title, String author);
 }
